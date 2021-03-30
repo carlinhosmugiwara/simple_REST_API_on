@@ -10,7 +10,7 @@ app.use(express.json())
 
 
 app.get('/', (req, res) =>{
-    res.send('Mudança')
+    res.send('Welcome to my book store')
 });
 
 app.get('/api/books', (req, res) =>{
